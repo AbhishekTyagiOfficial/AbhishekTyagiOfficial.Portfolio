@@ -33,11 +33,7 @@ export default function Portfolio() {
           <PortfolioCard
             portfolioImage={PortfolioNewsMonkey}
             category="Development"
-<<<<<<< HEAD
-            portfolioTitle="News Money"
-=======
             portfolioTitle="News Monkey"
->>>>>>> f0a8e09 (few changes)
             portfolioDescription="The NewsWave web app is a ReactJS-based application that fetches data from NewsAPI to provide users with up-to-date news articles. It offers a user-friendly interface for browsing and staying informed about various topics."
             gitHubLink="https://github.com/AbhishekTyagiOfficial/newsmonkey"
             portfolioLink=""
