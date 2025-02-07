@@ -26,7 +26,7 @@ export default function Home() {
           <span className="subtitle text-uppercase">Welcome To My World</span>
           <h1 className="title">
             <span className="text-dark">Hi, I'm</span>{" "}
-            <span>Abhishek Sher Tyagi</span>
+            <span>Abhishek Tyagi</span>
           </h1>
           <h2 className="rotating-text text-dark">
             a{" "}
