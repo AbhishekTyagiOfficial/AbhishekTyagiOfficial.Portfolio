@@ -1,6 +1,6 @@
 import React from "react";
 import PortfolioMyWebsite from "../assets/portfolio-mywebsite.png";
-
+import Automation from "../assets/Automation.png";
 import PortfolioNewsMonkey from "../assets/portfolio-newsmonkey.png";
 import PortfolioTextUtils from "../assets/portfolio-textutils.png";
 
@@ -48,6 +48,15 @@ export default function Portfolio() {
             gitHubLink="https://github.com/AbhishekTyagiOfficial/"
             portfolioLink="https://text-modify.web.app//"
             aosDelay="300"
+          />
+          <PortfolioCard
+            portfolioImage={Automation}
+            category="Testing"
+            portfolioTitle="Create Gmail ID through Automation"
+            portfolioDescription="This Java Selenium script automates Google account creation. It initializes a Chrome WebDriver, navigates to the Google sign-up page, and interacts with various elements. It clicks the 'Forgot password' button, goes back, and selects 'Create account.' Then, it fills in first and last names, selects birth details from dropdowns, and chooses a gender. The script enters a custom email ID, sets a password, and confirms it. Finally, it inputs a phone number and proceeds to the next step. WebDriverWait ensures elements are interactable before actions are performed."
+            gitHubLink="https://github.com/AbhishekTyagiOfficial/"
+            portfolioLink="https://github.com/AbhishekTyagiOfficial/CreateGoogleIDWithAutomation/"
+            aosDelay="100"
           />
         </div>
       </div>
