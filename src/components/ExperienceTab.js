@@ -20,7 +20,7 @@ export default function ExperienceTab() {
                 <div className="card-body p-0">
                   <div className="heading">
                     <div className="card-title">
-                      <h4>Software Engineer Tester</h4>
+                      <h4>Software Engineer</h4>
                       <span>
                         Rareprob Solution Pvt. Ltd. (Nov 2022 - Present)
                       </span>

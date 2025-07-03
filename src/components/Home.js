@@ -15,7 +15,7 @@ import main from "../assets/main.png";
 
 export default function Home() {
   const rotatingTexts = [
-    "Software Engineer Tester",
+    "Software Engineer",
     "Web Developer",
     "Freelancer",
   ];

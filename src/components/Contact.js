@@ -113,7 +113,7 @@ export default function Contact() {
               </div>
               <div className="title-area">
                 <h4 className="title text-start">Abhishek Tyagi</h4>
-                <span className="designation">Software Engineer Tester</span>
+                <span className="designation">Software Engineer</span>
               </div>
               <div className="description-area my-4">
                 {accept_booking ? (
