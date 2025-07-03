@@ -113,7 +113,7 @@ export default function Contact() {
               </div>
               <div className="title-area">
                 <h4 className="title text-start">Abhishek Tyagi</h4>
-                <span className="designation">Web Developer</span>
+                <span className="designation">Software Engineer Tester</span>
               </div>
               <div className="description-area my-4">
                 {accept_booking ? (
@@ -123,7 +123,7 @@ export default function Contact() {
                   </p>
                 ) : (
                   <p className="description">
-                    I'm currently unavailable for freelance opportunities,
+                    I'm available for freelance opportunities,
                     you're welcome to contact me for other purposes, feedback,
                     or suggestions. Feel free to reach out through my contact
                     information, and I'll be happy to connect.

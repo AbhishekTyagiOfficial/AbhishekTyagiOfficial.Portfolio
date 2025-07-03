@@ -30,7 +30,7 @@ export default function Resume() {
   return (
     <div className="container section-separator section-gap pb-0" id="resume">
       <div className="row">
-        <span className="subtitle text-uppercase">1+ Years Of Experience</span>
+        <span className="subtitle text-uppercase">2.5+ Years Of Experience</span>
         <h2 className="title">My Resume</h2>
         <div className="tabs my-5">
           <ul className="nav nav-tabs d-flex flex-column flex-md-row">

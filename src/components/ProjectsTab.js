@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import PortfolioMyWebsite from "../assets/portfolio-mywebsite.png";
+import MediaSaver from "../assets/Media-saver.png";
 
 import PortfolioNewsMonkey from "../assets/portfolio-newsmonkey.png";
 import PortfolioTextUtils from "../assets/portfolio-textutils.png";
@@ -70,15 +71,24 @@ export default function ProjectsTab() {
     >
       <Slider {...settings}>
         <ProjectCard
-          portfolioImage={PortfolioMyWebsite}
+          portfolioImage={MediaSaver}
           category="Development"
-          portfolioTitle="My Website"
-          portfolioDescription="I have created my own website that showcases detailed information about me. Using ReactJS, I have designed this platform to share my background, experiences, and interests. To enhance communication, I have used EmailJS on the contact page, enabling visitors to submit their details, which are then sent directly to my email for further interaction."
-          gitHubLink=""
-          portfolioLink="/"
+          portfolioTitle="Media Saver"
+          portfolioDescription="Media Saver is your ultimate all-in-one tool to effortlessly download and manage videos, photos, reels, and stories from popular platforms like Facebook, Instagram, TikTok, and WhatsApp. With just a few taps, you can:
+
+Save WhatsApp statuses by granting permission and capturing favorites.
+
+Download Facebook videos to enjoy offline.
+
+Save Instagram photos, reels, and videos, with no annoying watermarks.
+
+Capture TikTok videos and images, also watermark‑free. 
+
+I have created my own website that showcases detailed information about me. Using ReactJS, I have designed this platform to share my background, experiences, and interests. To enhance communication, I have used EmailJS on the contact page, enabling visitors to submit their details, which are then sent directly to my email for further interaction."
+          gitHubLink="https://github.com/AbhishekTyagiOfficial/Website-Media-Saver"
+          portfolioLink=""
           aosDelay="100"
         />
-
         <ProjectCard
           portfolioImage={PortfolioNewsMonkey}
           category="Development"
@@ -88,7 +98,15 @@ export default function ProjectsTab() {
           portfolioLink=""
           aosDelay="100"
         />
-
+        <ProjectCard
+          portfolioImage={PortfolioMyWebsite}
+          category="Development"
+          portfolioTitle="My Website"
+          portfolioDescription="I have created my own website that showcases detailed information about me. Using ReactJS, I have designed this platform to share my background, experiences, and interests. To enhance communication, I have used EmailJS on the contact page, enabling visitors to submit their details, which are then sent directly to my email for further interaction."
+          gitHubLink=""
+          portfolioLink="/"
+          aosDelay="100"
+        />
         <ProjectCard
           portfolioImage={PortfolioTextUtils}
           category="Development"

@@ -5,17 +5,19 @@ import {
   FaInstagram,
   FaTwitter,
   FaJava,
-  FaJs,
-  FaReact,
+  // FaJs,
+  // FaReact,
+  FaCogs ,
+  FaBug
+ 
 } from "react-icons/fa";
 import main from "../assets/main.png";
 
 export default function Home() {
   const rotatingTexts = [
+    "Software Engineer Tester",
     "Web Developer",
-    "Professional Coder",
-    "Software Tester",
-    // "Freelancer (Currently Unavailable)",
+    "Freelancer",
   ];
   const interval = 1000; // 1 seconds
 
@@ -35,10 +37,10 @@ export default function Home() {
             </span>
           </h2>
           <p className="description">
-            I specialize in designing and developing modern, responsive websites
-            using ReactJS. With a strong passion and unwavering dedication to my
-            work, I bring a high level of commitment and professionalism to
-            every project.
+            A versatile professional skilled as a Software Tester, Web Developer, and Freelancer,
+            experienced in ensuring software quality through manual and automated testing,
+            building responsive websites with modern web technologies,
+            and managing client projects independently with timely delivery and clear communication.
           </p>
           <div className="row" style={{ marginTop: "80px" }}>
             <div className="col-12 col-sm-6 social">
@@ -71,13 +73,13 @@ export default function Home() {
               <span className="tiny-title text-uppercase">Best Skill On</span>
               <ul className="icon-list">
                 <li className="icon">
-                  <FaJava />
+                  <FaBug />
                 </li>
                 <li className="icon">
-                  <FaJs />
+                  <FaCogs />
                 </li>
                 <li className="icon">
-                  <FaReact />
+                  <b><FaJava /></b>
                 </li>
               </ul>
             </div>

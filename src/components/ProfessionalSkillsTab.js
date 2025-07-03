@@ -19,17 +19,19 @@ export default function ProfessionalSkillsTab() {
           <ProgessBar skill="CSS" percentage="80" />
           <ProgessBar skill="JavaScript" percentage="50" />
           <ProgessBar skill="ReactJS" percentage="60" />
+          <ProgessBar skill="Git/GitHub" percentage="65" />
+          {/* <ProgessBar skill="C/C++" percentage="45" /> */}
         </div>
       </div>
       <div className="col-lg-6 mt-5 mt-lg-0">
         <div className="content">
           <span className="subtitle my-1 text-start">Features</span>
           <h4 className="title my-0 text-start">Languages & Others Skills</h4>
+          <ProgessBar skill="Selenium" percentage="70" />
+          <ProgessBar skill="Manual Testing" percentage="90" />
+          <ProgessBar skill="Automation Testing" percentage="50" />
           <ProgessBar skill="Java" percentage="65" />
-          <ProgessBar skill="C/C++" percentage="45" />
-          <ProgessBar skill="mySQL" percentage="50" />
-
-          <ProgessBar skill="Git/GitHub" percentage="85" />
+          <ProgessBar skill="mySQL" percentage="55" />
         </div>
       </div>
     </div>

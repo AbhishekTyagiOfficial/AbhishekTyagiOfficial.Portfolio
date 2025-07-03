@@ -128,6 +128,59 @@ export default function EducationTab() {
                 <div className="card-body p-0">
                   <div className="heading">
                     <div className="card-title">
+                      <h4>Selenium (Basic)</h4>
+                      <span>Great Learning (2025)</span>
+                    </div>
+                    <div className="view-certificate">
+                      <span>
+                        <a
+                          href="https://www.mygreatlearning.com/certificate/GEEMNVCM"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          View Certificate
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                  <p className="card-text">
+                  It covers Selenium WebDriver setup, locating elements using XPath and CSS Selectors, automating 
+                  browser actions like form filling and navigation, handling alerts, frames, and windows, 
+                  using waits for synchronization, writing test scripts in Java, and integrating with TestNG for 
+                  test execution and reporting. Includes hands-on practice with real-world scenarios to build a 
+                  strong foundation in automation testing.
+                  </p>
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-body p-0">
+                  <div className="heading">
+                    <div className="card-title">
+                      <h4>Java (Basic)</h4>
+                      <span>HackerRank (2024)</span>
+                    </div>
+                    <div className="view-certificate">
+                      <span>
+                        <a
+                          href="https://www.hackerrank.com/certificates/d68ee525096a"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          View Certificate
+                        </a>
+                      </span>
+                    </div>
+                  </div>
+                  <p className="card-text">
+                    It will cover basic topics in Java language such as classes,
+                    data structures, inheritance, exception handling, etc.
+                  </p>
+                </div>
+              </div>
+              <div className="card">
+                <div className="card-body p-0">
+                  <div className="heading">
+                    <div className="card-title">
                       <h4>React (Basic)</h4>
                       <span>HackerRank (2023)</span>
                     </div>
@@ -200,31 +253,7 @@ export default function EducationTab() {
                 </div>
               </div>
 
-              <div className="card">
-                <div className="card-body p-0">
-                  <div className="heading">
-                    <div className="card-title">
-                      <h4>Java (Basic)</h4>
-                      <span>HackerRank (2024)</span>
-                    </div>
-                    <div className="view-certificate">
-                      <span>
-                        <a
-                          href="https://www.hackerrank.com/certificates/d68ee525096a"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          View Certificate
-                        </a>
-                      </span>
-                    </div>
-                  </div>
-                  <p className="card-text">
-                    It will cover basic topics in Java language such as classes,
-                    data structures, inheritance, exception handling, etc.
-                  </p>
-                </div>
-              </div>
+              
               <div className="card">
                 <div className="card-body p-0">
                   <div className="heading">

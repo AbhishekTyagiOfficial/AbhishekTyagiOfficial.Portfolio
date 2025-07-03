@@ -12,7 +12,7 @@ export default function ExperienceTab() {
     >
       <div className="col-12 col-lg-6">
         <div className="content">
-          <span className="subtitle my-1 text-start">2023</span>
+          <span className="subtitle my-1 text-start">2022</span>
           <h4 className="title my-0 text-start">Job Experience</h4>
           <div className="list">
             <div className="col-lg-12">
@@ -20,9 +20,9 @@ export default function ExperienceTab() {
                 <div className="card-body p-0">
                   <div className="heading">
                     <div className="card-title">
-                      <h4>Software Test Engineer</h4>
+                      <h4>Software Engineer Tester</h4>
                       <span>
-                        Rareprob Solution Pvt. Ltd. (Jan 2023 - Present)
+                        Rareprob Solution Pvt. Ltd. (Nov 2022 - Present)
                       </span>
                     </div>
                   </div>

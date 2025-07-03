@@ -3,7 +3,7 @@ import PortfolioMyWebsite from "../assets/portfolio-mywebsite.png";
 import Automation from "../assets/Automation.png";
 import PortfolioNewsMonkey from "../assets/portfolio-newsmonkey.png";
 import PortfolioTextUtils from "../assets/portfolio-textutils.png";
-
+import MediaSaver from "../assets/Media-saver.png";
 import PortfolioCard from "./PortfolioCard";
 
 export default function Portfolio() {
@@ -21,9 +21,23 @@ export default function Portfolio() {
         <h2 className="title">My Portfolio</h2>
         <div className="row content mt-5 mx-auto">
           <PortfolioCard
+            portfolioImage={MediaSaver}
+            category="Development"
+            portfolioTitle="Media Saver"
+            portfolioDescription="Media Saver is your ultimate all-in-one tool to effortlessly download and manage videos, photos, reels, and stories from popular platforms like Facebook, Instagram, TikTok, and WhatsApp. With just a few taps, you can:
+                    Save WhatsApp statuses by granting permission and capturing favorites.
+                    Download Facebook videos to enjoy offline.
+                    Save Instagram photos, reels, and videos, with no annoying watermarks.
+                    Capture TikTok videos and images, also watermark‑free. 
+                    I have created my own website that showcases detailed information about me. Using ReactJS, I have designed this platform to share my background, experiences, and interests. To enhance communication, I have used EmailJS on the contact page, enabling visitors to submit their details, which are then sent directly to my email for further interaction."
+            gitHubLink="https://github.com/AbhishekTyagiOfficial/Website-Media-Saver"
+            portfolioLink="https://mediasaver-abhi.web.app/"
+            aosDelay="100"
+          />
+          <PortfolioCard
             portfolioImage={PortfolioMyWebsite}
             category="Development"
-            portfolioTitle="My Website"
+            portfolioTitle="Portfolio"
             portfolioDescription="I have created my own website that showcases detailed information about me. Using ReactJS, I have designed this platform to share my background, experiences, and interests. To enhance communication, I have used EmailJS on the contact page, enabling visitors to submit their details, which are then sent directly to my email for further interaction."
             gitHubLink=""
             portfolioLink="/"
@@ -36,7 +50,7 @@ export default function Portfolio() {
             portfolioTitle="News Monkey"
             portfolioDescription="The NewsWave web app is a ReactJS-based application that fetches data from NewsAPI to provide users with up-to-date news articles. It offers a user-friendly interface for browsing and staying informed about various topics."
             gitHubLink="https://github.com/AbhishekTyagiOfficial/newsmonkey"
-            portfolioLink=""
+            portfolioLink="https://newsmonkey.web.app/"
             aosDelay="100"
           />
 
@@ -46,7 +60,7 @@ export default function Portfolio() {
             portfolioTitle="Text Utils"
             portfolioDescription="TextAlter is a versatile tool that provides various text manipulation features. It includes word counting, character counting, line counting, reading time estimation, and the ability to transform text by converting it to uppercase or lowercase, toggling case, alternating case, capitalizing text, removing extra spaces or lines, copying text, and clearing the text."
             gitHubLink="https://github.com/AbhishekTyagiOfficial/"
-            portfolioLink="https://text-modify.web.app//"
+            portfolioLink="https://text-modify.web.app/"
             aosDelay="300"
           />
           <PortfolioCard
